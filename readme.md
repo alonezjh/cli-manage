@@ -30,9 +30,21 @@
 
 ![generator](./screenshots/generator.png)
 
-### 使用步骤
+### 使用流程
 
-#### 在package.json作如下配置：
+``` ts
+npm install -g cli-manage    // 全局安装
+cm                           // 查看cm命令 
+cm init                      // 初始化项目
+```
+
+### 本地开发
+
+``` bash
+git clone git@github.com:alonezjh/cli-manage.git
+```
+
+#### 在package.json作如下配置（cm命令可自定义）：
 
 ``` bash
 "bin": {
@@ -50,7 +62,6 @@ npm link
 看到如下提示即说明cm命令已注册到全局。
 
 ``` bash
-
 /usr/local/bin/cm -> /usr/local/lib/node_modules/cli-manage/bin/cm.js
 /usr/local/lib/node_modules/cli-manage -> /Users/alonez/Work/github/cli-manage
 ```
