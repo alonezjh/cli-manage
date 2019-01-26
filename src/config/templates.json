@@ -1,0 +1,12 @@
+{
+  "vue2-template-ts": {
+    "name": "vue2-template-ts",
+    "url": "https://github.com/alonezjh/vue2-template-ts.git",
+    "description":"vue2+ts架构项目模版（基础版），仅包含vue-router"
+  },
+  "vue2-template-ts-decorator": {
+    "name": "vue2-template-ts-decorator",
+    "url": "https://github.com/alonezjh/vue2-template-ts-decorator.git",
+    "description":"vue2+ts架构项目模版（进阶版），使用装饰器语法"
+  }
+}

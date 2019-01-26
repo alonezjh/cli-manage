@@ -1,0 +1,32 @@
+{
+  "name": "cli-manage",
+  "version": "1.0.0",
+  "description": "脚手架管理工具，拉取github项目模版",
+  "main": "index.js",
+  "author": "alonez",
+  "license": "MIT",
+  "bin": {
+    "cm": "./bin/cm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonezjh/cli-manage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alonezjh/cli-manage/issues"
+  },
+  "homepage": "https://github.com/alonezjh/cli-manage/#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-table": "^0.3.1",
+    "cli-table-redemption": "^1.0.1",
+    "cli-table2": "^0.2.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.1",
+    "ora": "^3.0.0",
+    "shelljs": "^0.8.3",
+    "tty-table": "^2.7.0"
+  }
+}
