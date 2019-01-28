@@ -1,12 +1,17 @@
 {
   "vue2-template-ts": {
     "name": "vue2-template-ts",
-    "url": "https://github.com/alonezjh/vue2-template-ts.git",
+    "url": "https://github.com/alonezjh/vue2-template-ts.git#vue2-template-ts",
     "description":"vue2+ts架构项目模版（基础版），仅包含vue-router"
   },
   "vue2-template-ts-decorator": {
     "name": "vue2-template-ts-decorator",
-    "url": "https://github.com/alonezjh/vue2-template-ts-decorator.git",
+    "url": "https://github.com/alonezjh/vue2-template-ts-decorator.git#vue2-template-ts-decorator",
     "description":"vue2+ts架构项目模版（进阶版），使用装饰器语法"
+  },
+  "node-template-ts-koa": {
+    "name": "node-template-ts-koa",
+    "url": "https://github.com/alonezjh/node-template-ts-koa.git#node-template-ts-koa",
+    "description":"用来开发RESTful API的项目模版，技术选型为nodejs+koa+ts+mysql。使用sequelize操作数据库，预设多套环境配置"
   }
 }

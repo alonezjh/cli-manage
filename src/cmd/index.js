@@ -16,7 +16,9 @@ const temps = Object.keys(templates).map(key => templates[key]);
 
 for (const key of temps) {
   console.log(chalk.white.bgCyan.bold(`  模版名称： `),`${chalk.bold.magenta(key['name'])} \n${chalk.white.bgCyan.bold(`\n  模版描述： \n\n`)} ${key['description']}`);
+  console.log(chalk.white.bgCyan.bold(`\n  项目地址： `),`${chalk.yellow(key['url'])}`);
   console.log(chalk.blue('\n======================================================\n'));
+
 }
 
 const questions = [
